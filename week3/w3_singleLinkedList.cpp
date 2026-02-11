@@ -80,7 +80,7 @@ class Linkedlist
             cout << "List empty" << endl;
             return;
         }
-        cout << "Elements of the list are: ";
+        cout << "Elements of the list is: ";
         while (temp != NULL) {
             cout << temp->data << " ";
             temp = temp->next;
